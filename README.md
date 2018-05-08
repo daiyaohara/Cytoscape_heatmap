@@ -28,4 +28,3 @@ analysed_data.tsv
    $ls *.csv | parallel --no-notice --eta -j 1 -a - 'python3 ../Cat_sailfish_cytocsv_2.py {}'
    
 ## Result : 
-file:///media/daiya/HDCZ-UT/Cytoscape_heatmap_practice/Sailfish2Cytoscape_mmu00020/Citrate%20cycle%20(TCA%20cycle)%20%5Bmmu00020%5D.png
