@@ -1,7 +1,8 @@
 # Cytoscape_heatmap
-Mapping heatmaps on the KEGG pathway using Cytoscape
+Mapping RNA-seq data tables on the KEGG pathway as heatmap
 
 ## Requirements:
+- Cytoscape3.6.1 
 - python3.6 
     - pandas ( pandas>=0.22.0 )
     - matplotlib ( matplotlib>=2.0.2 )
