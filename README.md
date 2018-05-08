@@ -15,6 +15,7 @@ Mapping heatmaps on the KEGG pathway using Cytoscape
 4. $python3 Cat_sailfish.nv_cytocsv.py exported_csv.tsv analysed_data.tsv
 
 analysed_data.tsv  
+
 | Gene_symbol | NCBI gene ID | Naive | iTreg | nTreg | Th1 | Th2 | Th17 |
 ----|----|----|----|----|----|----|----
 | Pzp	        | 11287	     |0.0105 | 0     | 0     | 0   | 0   | 0.057 |
