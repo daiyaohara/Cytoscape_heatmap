@@ -26,6 +26,9 @@ analysed_data.tsv
 
 5. $cd {exported_csv}_{analysed_data}  
    $ls *.csv | parallel --no-notice --eta -j 1 -a - 'python3 ../Cat_sailfish_cytocsv_2.py {}'
-   
+
+6. Cytoscape : File -> import -> tables -> select {expected_csv}_{analysed_data}.attr
+7. Cytoscape : Control Panel -> Style (node) -> Image/Chart1 -> Column : heatmaps / Mapping Type : Paththrough Mapping
+
 ## Result : 
 ![citrate cycle tca cycle mmu00020](https://user-images.githubusercontent.com/28255294/39768813-52439c84-5325-11e8-87f8-04858058a47d.png)
